@@ -1,0 +1,128 @@
+.main {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    font-size: clamp(10px, 0.8vw, 2rem);
+    font-family: "Rubik", sans-serif;
+}
+
+.cardone {
+    width: 350px;
+    height: 434px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.cardtwo {
+    width: 350px;
+    height: 434px;
+    background-color: #FFD100;
+    border-radius: 10px;
+}
+
+.cardone .img {
+    width: 350px;
+    height: 180px;
+    text-align: center;
+}
+
+.cardtwo .img {
+    width: 350px;
+    height: 180px;
+    text-align: center;
+}
+
+.lorem {
+    width: 290px;
+    height: 98px;
+    margin-top: 21px;
+    margin-left: 30px;
+}
+
+.lorem p {
+    opacity: 0.7;
+}
+
+.footer {
+    width: 290px;
+    height: 74px;
+    margin-top: 33px;
+    margin-left: 30px;
+    text-align: end;
+}
+
+h2 {
+    color:  #941B0C;
+    font-size: 2rem;
+}
+
+.verh {
+    width: 290px;
+    height: 22px;
+}
+
+.niz {
+    width: 290px;
+    height: 52px;
+}
+
+.old {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    color:  #808080;
+    margin: 0;
+}
+
+.new {
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 51.6px;
+    margin: 0;
+    color: #941B0C;
+}
+
+.basket {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 10px 0 0;
+    position: relative;
+    bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baskettop {
+    width: 45px;
+    height: 31px;
+}
+
+.discount {
+    width: 86px;
+    height: 86px;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount p {
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    transform: rotate(-45deg);
+    right: 74px;
+}
+
+.lorem p {
+    --color-text: black;
+    color: var(rgb(0, 0, 0));
+}
+
